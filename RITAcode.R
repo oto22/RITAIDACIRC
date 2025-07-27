@@ -8,6 +8,7 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 # usage
+
 packages <- c("installr", "RPostgreSQL", "dplyr","lubridate",
               "ggplot2","tidyr","openxlsx",
               "readxl","readr")
